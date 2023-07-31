@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+*{
+    font-family: 'ヒラギノ角ゴシック', 'メイリオ', sans-serif ;
+    padding: 5px;
+}
+
+
+main{
+    border: 2px dotted rgba(66, 149, 228, 0.986);
+}
+
+.first::first-letter{
+    font-size: 2rem;
+}
+
+#question{
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+.name{
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    display: flex ;
+}
+
+article{
+    order: 1;
+    flex: 0 1 auto;
+}
+aside{
+    order: 2;
+    flex: 0 1 auto;
+}
+section{
+    order:3;
+    flex: 0 1 auto
+}
